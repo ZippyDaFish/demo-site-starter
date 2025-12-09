@@ -16,7 +16,9 @@
     <a href="./contact" class="hover:text-gray-300">Contact</a>
   </nav>
 
-  {@render children()}
+  <div class="p-8">
+	{@render children()}
+  </div>
   
   <footer class="text-center text-gray-500 p-6 text-sm">
     © 2025 Small Manufacturing Co.
