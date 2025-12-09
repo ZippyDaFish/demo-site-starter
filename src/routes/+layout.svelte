@@ -16,7 +16,7 @@
     <a href="./contact" class="hover:text-gray-300">Contact</a>
   </nav>
 
-  <div class="p-8">
+  <div class="p-8 flex-1 p-6 max-w-4xl mx-auto w-full">
 	{@render children()}
   </div>
   
