@@ -7,7 +7,7 @@ our team is here to help. Fill out the form below and we'll get back to you prom
 
 <div class="grid md:grid-cols-2 gap-10 items-start">
     <!-- Contact Form -->
-    <form class="grid gap-4 p-6 bg-white rounded-lg shadow">
+    <form class="grid gap-4 p-6 bg-white rounded-lg shadow-lg">
     <div>
     <label class="block font-semibold mb-1">Name
     <input type="text" placeholder="Your name" class="border p-2 rounded w-full" />
@@ -42,14 +42,14 @@ our team is here to help. Fill out the form below and we'll get back to you prom
 
     <!-- Contact Info + Map -->
     <div class="space-y-6">
-        <div class="bg-gray-100 p-6 rounded-lg shadow">
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
         <h2 class="text-2xl font-semibold mb-4">Our Office</h2>
         <p class="text-gray-700">123 Industrial Way<br/>Springfield, USA</p>
         <p class="text-gray-700 mt-4"><strong>Phone:</strong> (555) 987-6543</p>
         <p class="text-gray-700"><strong>Email:</strong> info@manufacturingco.com</p>
         </div>
 
-        <div class="rounded-lg overflow-hidden shadow h-64">
+        <div class="rounded-lg overflow-hidden shadow-lg h-64">
         <iframe
         title="Map"
         class="w-full h-full"
