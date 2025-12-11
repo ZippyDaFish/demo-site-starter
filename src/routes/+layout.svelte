@@ -1,6 +1,7 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
+  import { page } from '$app/stores';
 	
 	let { children } = $props();
 </script>
@@ -10,11 +11,43 @@
 </svelte:head>
 
 <div class="min-h-screen flex flex-col">
-  <nav class="bg-blue-700 text-white p-4 flex gap-6 text-lg">
-    <a href="/" class="hover:text-gray-300">Home</a>
-    <a href="./about" class="hover:text-gray-300">About</a>
-    <a href="./contact" class="hover:text-gray-300">Contact</a>
-  </nav>
+  <header class="sticky top-0 z-50">
+  <div class="bg-gradient-to-r from-blue-700 to-blue-600 text-white shadow-md">
+    <div class="mx-auto flex items-center p-4">
+
+      <!-- Company Name -->
+      <div class="text-2xl font-bold tracking-wide mr-auto">
+        Manufacturing Co.
+      </div>
+
+      <!-- Centered Navigation -->
+      <nav class="absolute left-1/2 transform -translate-x-1/2 flex gap-8 text-lg">
+        <a
+          href="/"
+          class="transition-colors duration-200 hover:text-gray-200 
+          { $page.url.pathname === '/' ? 'font-semibold border-b-2 border-white pb-1' : '' }"
+        >
+          Home
+        </a>
+        <a
+          href="/about"
+          class="transition-colors duration-200 hover:text-gray-200
+          { $page.url.pathname === '/about' ? 'font-semibold border-b-2 border-white pb-1' : '' }"
+        >
+          About
+        </a>
+        <a
+          href="/contact"
+          class="transition-colors duration-200 hover:text-gray-200
+          { $page.url.pathname === '/contact' ? 'font-semibold border-b-2 border-white pb-1' : '' }"
+        >
+          Contact
+        </a>
+      </nav>
+
+    </div>
+  </div>
+</header>
 
   <div class="p-8 flex-1 p-6 max-w-4xl mx-auto w-full">
 	{@render children()}
