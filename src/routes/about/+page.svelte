@@ -7,3 +7,56 @@
     Our team of skilled machinists and engineers ensures every product meets
     the highest industry standards.
 </p>
+
+<div class="mt-10 p-6 bg-white rounded-lg shadow-lg">
+    <h2 class="text-3xl font-semibold mb-4">What Our Clients Say</h2>
+
+
+    <div class="space-y-6">
+    <div class="p-4 border-l-4 border-blue-700 bg-gray-50">
+    <p class="text-gray-700 italic">“Small Manufacturing Co. consistently delivers high‑quality parts on time. Their attention to detail is unmatched.”</p>
+    <p class="mt-2 font-semibold">— Alex R., Automotive Supplier</p>
+    </div>
+
+
+    <div class="p-4 border-l-4 border-blue-700 bg-gray-50">
+    <p class="text-gray-700 italic">“The team was incredibly responsive and helped us refine our prototype quickly. A great partner to work with.”</p>
+    <p class="mt-2 font-semibold">— Maria L., Hardware Startup</p>
+    </div>
+
+
+    <div class="p-4 border-l-4 border-blue-700 bg-gray-50">
+    <p class="text-gray-700 italic">“Their production quality and consistency allowed us to scale confidently. Highly recommended.”</p>
+    <p class="mt-2 font-semibold">— James K., Industrial Manufacturing Lead</p>
+    </div>
+    </div>
+</div>
+
+<div class="mt-10 p-6 bg-gray-100 rounded-lg shadow-lg">
+    <h2 class="text-3xl font-semibold mb-4">Frequently Asked Questions</h2>
+
+
+    <div class="mb-4">
+    <h3 class="text-xl font-semibold">What industries do you serve?</h3>
+    <p class="text-gray-700">We support automotive, aerospace, industrial manufacturing, and custom fabrication sectors.</p>
+    </div>
+
+
+    <div class="mb-4">
+    <h3 class="text-xl font-semibold">Do you offer custom part production?</h3>
+    <p class="text-gray-700">Yes, we specialize in custom metal and precision part manufacturing based on client specifications.</p>
+    </div>
+
+
+    <div class="mb-4">
+    <h3 class="text-xl font-semibold">What is your typical turnaround time?</h3>
+    <p class="text-gray-700">Turnaround varies by project scope, but most orders are fulfilled within 2-3 weeks.</p>
+    </div>
+
+
+    <div>
+    <h3 class="text-xl font-semibold">Can you handle large production runs?</h3>
+    <p class="text-gray-700">Absolutely. We have equipment and staff capable of high-volume production.</p>
+    </div>
+</div>
+
