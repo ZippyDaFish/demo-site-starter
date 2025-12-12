@@ -4,7 +4,7 @@ const dev = process.argv.includes('dev');
 const config = {
   kit: {
     adapter: adapter({
-      // default options are pages: 'build', assets: 'build', fallback: null
+      fallback: 'index.html'
     }),
     paths: {
       base: dev ? '' : '/demo-site-starter',

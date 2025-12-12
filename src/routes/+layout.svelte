@@ -24,21 +24,21 @@
       <!-- Centered Navigation -->
       <nav class="absolute left-1/2 transform -translate-x-1/2 flex gap-8 text-lg">
         <a
-          href="{base}/"
+          href={`${base}/`}
           class="transition-colors duration-200 hover:text-gray-200 
           { $page.url.pathname === '/' ? 'font-semibold border-b-2 border-white pb-1' : '' }"
         >
           Home
         </a>
         <a
-          href="{base}/about"
+          href={`${base}/about`}
           class="transition-colors duration-200 hover:text-gray-200
           { $page.url.pathname === '/about' ? 'font-semibold border-b-2 border-white pb-1' : '' }"
         >
           About
         </a>
         <a
-          href="{base}/contact"
+          href={`${base}/contact`}
           class="transition-colors duration-200 hover:text-gray-200
           { $page.url.pathname === '/contact' ? 'font-semibold border-b-2 border-white pb-1' : '' }"
         >
